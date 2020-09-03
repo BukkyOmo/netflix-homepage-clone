@@ -1,0 +1,388 @@
+body{
+    background-color: #000;
+    color: #FFF;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+p{
+    font-size: 18px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.btn{
+    background-color: #FF0000;
+    color: #FFF;
+}
+
+.logo-image-container{
+    width: 105px;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.sign-in{
+    height: 30px;
+    width: 60px;
+    border: 1px solid red;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+.banner-container{
+    background-image: url('../images/NG-en-20200824-popsignuptwoweeks-perspective_alpha_website_small.jpg');
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+    background-size: cover;
+}
+
+.banner{
+    text-align: center;
+    margin: 0px 10px;
+}
+
+.banner-text{
+    padding: 5px 33px 0px;
+}
+
+.banner-text > p {
+    font-size: 18px;
+}
+
+.last-p{
+    margin-bottom: 0px;
+}
+
+.banner-inputs{
+    display: grid;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.banner-input-text{
+    padding: 16px;
+    border: 1px solid #FFF;
+    border-radius: 0px;
+    margin: 10px 0px;
+}
+
+.banner-input-button{
+    margin: auto;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: 1px solid red;
+}
+
+.section-container{
+    text-align: center;
+    padding: 30px 15px;
+    margin-bottom: 40px;
+}
+
+.section-margin-top{
+    border-top: 10px solid #303030;
+}
+
+video{
+    width: 100%;
+}
+
+.section-image-container{
+    position: relative;
+}
+
+.video-container{
+    position: absolute;
+    top: 54px;
+    left: 46px;
+    max-width: 252px;
+    z-index: -1;
+}
+
+.section-image-container{
+    display: relative;
+}
+
+.stranger-things-container{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    border: 3px solid #303030;
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px 5px;
+    margin: auto;
+    position: absolute;
+    left: 30px;
+    bottom: -10px;
+    background-color: #000;
+}
+
+.stranger-things-container-text p{
+    margin-bottom: 0px;
+    margin-top: 3px;
+    text-align: left;
+}
+
+.stranger-things-container-text > p:last-child{
+    color: blue;
+    font-size: 14px;
+}
+
+.stranger-things-image-container{
+    width: 40px;
+    height: auto;
+    object-fit: contain;
+}
+
+.stranger-things-video-container{
+    width: 50px;
+    height: 100px;
+}
+
+.video-container-2{
+    position: absolute;
+    top: 24px;
+    left: 58px;
+    max-width: 225px;
+    z-index: -1;
+}
+
+.faqs{
+    padding: unset;
+}
+
+.faq-item{
+    margin-bottom: 10px;
+}
+
+.faq-item > button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    color: #FFF;
+    border: 1px solid #303030;
+    background-color: #303030;
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+.second-inputs{
+    padding: 0px 20px;
+    margin-bottom: -10px;
+}
+
+svg{
+    transform: rotate(45deg);
+}
+
+.footer{
+    text-align: left;
+    padding-left: 30px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-container{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+    text-align: left;
+    line-height: 5px;
+}
+
+.footer-container > p{
+    font-size: 12px;
+}
+
+@media only screen and (min-width: 600px) {
+    .banner-container{
+        height: 80vh;
+    }
+
+    .logo-container{
+        padding: 10px 70px 10px 40px;
+    }
+
+    .logo-image-container{
+        width: 170px;
+    }
+
+    .sign-in{
+        height: 35px;
+        width: 90px;
+        padding: 5px;
+        font-size: 18px;
+    }
+
+    .banner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        margin: auto;
+        max-width: 630px;
+    }
+
+    .banner h1{
+        font-size: 52px;
+        margin: 0;
+    }
+
+    .banner-input-text{
+        padding: 22px;
+        margin: unset;
+    }
+    
+    .banner-input-button{
+        padding: 15px;
+        width: unset;
+        margin: unset;
+        font-size: 22px;
+    }
+
+    .banner-inputs{
+        grid-template-columns: 2fr 1fr;
+        margin-top: 15px;
+    }
+
+    .swap-columns{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+
+    .normal-columns{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-container{
+        padding: 40px 140px;
+        margin: 0 auto;
+        max-width: 1000px;
+    }
+
+    .section-image-container{
+        flex: 1;
+        padding: 30px 0px;
+    }
+
+    .section-text-container{
+        width: 50%;
+        text-align: left;
+    }
+
+    .section-text-container > h2{
+        font-size: 50px;
+        margin: 8px 0px;
+    }
+
+    .section-text-container > p{
+        font-size: 28px;
+        max-width: 500px;
+    }
+
+    .left{
+        max-width: 600px;
+        text-align: left;
+    }
+
+    .stranger-things-container{
+        width: 70%;
+        height: 60px;
+        left: 55px;
+        bottom: 50px;
+    }
+
+    .stranger-things-video-container{
+        height: unset;
+    }
+
+    .right{
+        margin-right: 100px;
+    }
+
+    .video-container{
+        top: 104px;
+        left: 63px;
+        max-width: 354px;
+    }
+
+    .video-container-2{
+        top: 84px;
+        left: 78px;
+        max-width: 315px;
+    }
+
+    .section-card{
+        max-height: 400px;
+    }
+
+    .footer-container{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+     .faqs{
+        padding: 0 340px;
+    }
+
+    .faq-item > button{
+        height: 70px;
+        font-size: 20px;
+        padding: 0 30px;
+    }
+
+    .faqs > h2{
+        font-size: 50px;
+        margin-top: 65px;
+    }
+
+    .faqs-button-container{
+        margin-bottom: 60px;
+    }
+
+    .faqs .banner-inputs{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 70px;
+    }
+
+    .footer{
+        padding: 50px 300px 0px 300px;
+    }
+  }
+
+  @media only screen and (min-width: 1400px) {
+      .section-card{
+          padding: 200px; 
+          max-height: 120px ;
+      }
+
+      .banner-container{
+          height: 70vh;
+      }
+
+      .faq-item > button{
+          width: 80%;
+          margin: auto;
+      }
+
+      .faqs .banner-inputs {
+        width: 85%;
+      }
+  }
+

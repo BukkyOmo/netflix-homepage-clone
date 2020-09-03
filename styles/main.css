@@ -177,8 +177,12 @@ video{
     font-size: 18px;
 }
 
+.faqs .banner-inputs{
+    width: 90%;
+    margin: auto;
+}
+
 .second-inputs{
-    padding: 0px 20px;
     margin-bottom: -10px;
 }
 
@@ -205,7 +209,7 @@ svg{
     font-size: 12px;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 729px) {
     .banner-container{
         height: 80vh;
     }
@@ -325,7 +329,7 @@ svg{
     .video-container-2{
         top: 84px;
         left: 78px;
-        max-width: 315px;
+        max-width: 245px;
     }
 
     .section-card{
@@ -356,8 +360,6 @@ svg{
     }
 
     .faqs .banner-inputs{
-        width: 90%;
-        margin: auto;
         margin-bottom: 70px;
     }
 
